@@ -37,7 +37,6 @@ namespace Second_Log.Controllers
         {
             Console.WriteLine(
                 $"- {nameof(HomeController)}.{nameof(Privacy)}");
-
             return View();
         }
     }
